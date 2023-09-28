@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .resume {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+  }
+  
+  .resume_left {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .resume_left .resume_profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0bb5f4;
+  }
+  
+  .section_line {
+    border-top: 1px solid #0bb5f4;
+    margin: 10px 0;
+  }
+  
+  .contact_info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact_info li {
+    margin-bottom: 5px;
+  }
+  
+  .resume_right {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .resume_right h2 {
+    margin-bottom: 10px;
+  }
+  
+  .certificates, .work_experience, .skills {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .certificates li, .work_experience li, .skills li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0bb5f4;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+  
